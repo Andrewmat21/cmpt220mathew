@@ -7,7 +7,7 @@ public class Lab3Prob6
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a string: ");
-		String st = scan.next();
+		String st = scan.next // JA: Use nextLine() to read the full string
 
 		System.out.println("The string has " + countVowels(st) + " vowel(s).");
 	}
