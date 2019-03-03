@@ -7,7 +7,7 @@ public class Lab4Prob4
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a string: ");
-		String st = scan.next();
+		String st = scan.next(); // JA: You have to use nextLine() to read the complete string
 		char[] array = st.toCharArray();
 	
 

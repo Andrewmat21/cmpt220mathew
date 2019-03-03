@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// JA: There are a few problems with this logic
 public class Lab4Prob7 
 {
 
