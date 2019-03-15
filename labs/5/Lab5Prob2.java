@@ -14,6 +14,7 @@ public class Lab5Prob2
 			System.out.println("Enter: ");
 			array[i] = scan.nextDouble();
 		}
+		// JA: Where is the call to the mean and std dev?
 
 	}
 
