@@ -33,11 +33,12 @@ public class SoccerTest
 		Goal g1 = new Goal();
 		g1.setMinute(5);
 		g1.setPlayer(p1);
-		addHomeGoal(g1);
+		// JA
+		s.addHomeGoal(g1);
 		Goal g2 = new Goal();
-		addVisitorGoal(g2);
+		s.addVisitorGoal(g2);
 		
-		System.out.println("Who won the match?: " + getWinner());
+		System.out.println("Who won the match?: " + s.getWinner());
 	}
 
 }
