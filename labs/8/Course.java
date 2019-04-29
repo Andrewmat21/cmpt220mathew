@@ -20,6 +20,7 @@ public class Course
 		return courseName;
 	}
 
+	// JA: You should not change the contract of the method
 	public ArrayList<String> getStudents() 
 	{
 		return students;
